@@ -5,6 +5,7 @@ const { carregarLivros } = require('./persistencia.js');
 const incluirLivro = require('./modules/incluirLivro.js');
 const listarLivros = require('./modules/listarLivros.js');
 const pesquisarLivro = require('./modules/pesquisarLivro.js');
+const agruparPorGenero = require('./modules/agruparPorGenero.js');
 
 function main() {
   carregarLivros(); // Carrega os dados ao iniciar
@@ -37,7 +38,7 @@ function main() {
         pesquisarLivro();
         break;
       case '4':
-        agruparLivrosPorGenero();
+        agruparPorGenero();
         break;
       case '5':
         gerarPaginaWebCompleta();
