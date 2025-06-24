@@ -4,6 +4,7 @@ const { carregarLivros } = require('./persistencia.js');
 // Importa cada função do menu de seu respectivo arquivo
 const incluirLivro = require('./modules/incluirLivro.js');
 const listarLivros = require('./modules/listarLivros.js');
+const pesquisarLivro = require('./modules/pesquisarLivro.js');
 
 function main() {
   carregarLivros(); // Carrega os dados ao iniciar
