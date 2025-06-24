@@ -3,7 +3,6 @@ const { livros, salvarLivros, carregarLivros } = require('../persistencia.js');
 
 function incluirLivro() {
   carregarLivros();
-  console.log(livros);
 
   console.log('\n--- Incluir Novo Livro ---');
   const titulo = prompt('Título: ');
