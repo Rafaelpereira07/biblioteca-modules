@@ -1,0 +1,107 @@
+[
+  {
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "genero": "Distopia",
+    "anoPublicacao": 1949,
+    "numeroPaginas": 328
+  },
+  {
+    "titulo": "A Revolucao dos Bichos",
+    "autor": "George Orwell",
+    "genero": "Fabula Politica",
+    "anoPublicacao": 1945,
+    "numeroPaginas": 128
+  },
+  {
+    "titulo": "Cem Anos de Solidao",
+    "autor": "Gabriel Garcia Marquez",
+    "genero": "Realismo Magico",
+    "anoPublicacao": 1967,
+    "numeroPaginas": 417
+  },
+  {
+    "titulo": "O Amor nos Tempos do Colera",
+    "autor": "Gabriel Garcia Marquez",
+    "genero": "Romance",
+    "anoPublicacao": 1985,
+    "numeroPaginas": 348
+  },
+  {
+    "titulo": "Dom Casmurro",
+    "autor": "Machado de Assis",
+    "genero": "Romance",
+    "anoPublicacao": 1899,
+    "numeroPaginas": 256
+  },
+  {
+    "titulo": "Memorias Postumas de Bras Cubas",
+    "autor": "Machado de Assis",
+    "genero": "Romance",
+    "anoPublicacao": 1881,
+    "numeroPaginas": 288
+  },
+  {
+    "titulo": "O Pequeno Principe",
+    "autor": "Antoine de Saint-Exupery",
+    "genero": "Infantil",
+    "anoPublicacao": 1943,
+    "numeroPaginas": 96
+  },
+  {
+    "titulo": "Harry Potter e a Pedra Filosofal",
+    "autor": "J.K. Rowling",
+    "genero": "Fantasia",
+    "anoPublicacao": 1997,
+    "numeroPaginas": 223
+  },
+  {
+    "titulo": "O Senhor dos Aneis: A Sociedade do Anel",
+    "autor": "J.R.R. Tolkien",
+    "genero": "Fantasia",
+    "anoPublicacao": 1954,
+    "numeroPaginas": 423
+  },
+  {
+    "titulo": "O Grande Gatsby",
+    "autor": "F. Scott Fitzgerald",
+    "genero": "Ficcao Classica",
+    "anoPublicacao": 1925,
+    "numeroPaginas": 180
+  },
+  {
+    "titulo": "Orgulho e Preconceito",
+    "autor": "Jane Austen",
+    "genero": "Romance",
+    "anoPublicacao": 1813,
+    "numeroPaginas": 279
+  },
+  {
+    "titulo": "Crime e Castigo",
+    "autor": "Fiodor Dostoievski",
+    "genero": "Ficcao Filosofica",
+    "anoPublicacao": 1866,
+    "numeroPaginas": 551
+  },
+  {
+    "titulo": "O Diario de Anne Frank",
+    "autor": "Anne Frank",
+    "genero": "Biografia",
+    "anoPublicacao": 1947,
+    "numeroPaginas": 283
+  },
+  {
+    "titulo": "Uma Breve Historia do Tempo",
+    "autor": "Stephen Hawking",
+    "genero": "Ciencia",
+    "anoPublicacao": 1988,
+    "numeroPaginas": 256
+  },
+  {
+    "titulo": "Sapiens: Uma Breve Historia da Humanidade",
+    "autor": "Yuval Noah Harari",
+    "genero": "Historia",
+    "anoPublicacao": 2011,
+    "numeroPaginas": 443
+  }
+]
