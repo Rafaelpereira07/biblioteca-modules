@@ -1,6 +1,9 @@
 const prompt = require('prompt-sync')();
 const { carregarLivros } = require('./persistencia.js');
 
+// Importa cada função do menu de seu respectivo arquivo
+const incluirLivro = require('./modules/incluirLivro.js');
+
 function main() {
   carregarLivros(); // Carrega os dados ao iniciar
 

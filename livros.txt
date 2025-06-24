@@ -103,5 +103,19 @@
     "genero": "Historia",
     "anoPublicacao": 2011,
     "numeroPaginas": 443
+  },
+  {
+    "titulo": "O poder o habito",
+    "autor": "Charles Duhigg",
+    "genero": "psicologia",
+    "anoPublicacao": 2012,
+    "numeroPaginas": 408
+  },
+  {
+    "titulo": "teste",
+    "autor": "teste",
+    "genero": "teste",
+    "anoPublicacao": 2025,
+    "numeroPaginas": 100
   }
 ]
