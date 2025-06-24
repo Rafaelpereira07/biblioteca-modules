@@ -7,6 +7,7 @@ const listarLivros = require('./modules/listarLivros.js');
 const pesquisarLivro = require('./modules/pesquisarLivro.js');
 const agruparPorGenero = require('./modules/agruparPorGenero.js');
 const gerarPaginaWebCompleta = require('./modules/gerarPaginaWebCompleta.js');
+const gerarPaginaWebFiltrada = require('./modules/gerarPaginaWebFiltrada.js');
 
 function main() {
   carregarLivros(); // Carrega os dados ao iniciar
