@@ -7,20 +7,23 @@ function carregarLivros() {
   try {
     const dadosArquivo = fs.readFileSync(ARQUIVO_LIVROS, 'utf8');
     if (dadosArquivo) {
-      livros = JSON.parse(dadosArquivo);
+      const livrosDoArquivo = JSON.parse(dadosArquivo);
+      livros.length = 0;
+      livrosDoArquivo.forEach((livro) => livros.push(livro));
+
       console.log('\n--- Livros carregados do arquivo! ---\n');
     } else {
-      livros = [];
+      livros.length = 0;
       console.log('\n--- Arquivo de livros vazio. Iniciando com lista vazia. ---\n');
     }
   } catch (error) {
     if (error.code === 'ENOENT') {
       fs.writeFileSync(ARQUIVO_LIVROS, '[]', 'utf8');
-      livros = [];
+      livros.length = 0;
       console.log('\n--- Arquivo de livros não encontrado. Um novo foi criado. ---\n');
     } else {
       console.error('\n--- Erro ao carregar livros:', error.message, '---\n');
-      livros = [];
+      livros.length = 0;
     }
   }
 }
