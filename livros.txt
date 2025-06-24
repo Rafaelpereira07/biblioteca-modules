@@ -105,17 +105,10 @@
     "numeroPaginas": 443
   },
   {
-    "titulo": "O poder o habito",
+    "titulo": "O Poder do Habito",
     "autor": "Charles Duhigg",
     "genero": "psicologia",
     "anoPublicacao": 2012,
     "numeroPaginas": 408
-  },
-  {
-    "titulo": "testeawawdaw",
-    "autor": "testedasdasd",
-    "genero": "testeasdasdasd",
-    "anoPublicacao": 2024,
-    "numeroPaginas": 200
   }
 ]

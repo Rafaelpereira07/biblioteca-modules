@@ -9,6 +9,7 @@ const agruparPorGenero = require('./modules/agruparPorGenero.js');
 const gerarPaginaWebCompleta = require('./modules/gerarPaginaWebCompleta.js');
 const gerarPaginaWebFiltrada = require('./modules/gerarPaginaWebFiltrada.js');
 const alterarLivro = require('./modules/alterarLivro.js');
+const excluirLivro = require('./modules/excluirLivro.js');
 
 function main() {
   carregarLivros(); // Carrega os dados ao iniciar
